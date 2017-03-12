@@ -1,0 +1,41 @@
+
+
+.primary-content {
+   
+    @media #{$brk-narrow} {
+        width: 100%;
+        padding: 20px;
+        border-top: none;
+    }
+    @media #{$brk-wide}{
+        width: 90%;
+    }
+    @extend %centered;
+    @extend %content;
+}
+
+.secondary-content{
+    
+    @media #{$brk-narrow} {
+        width: 100%;
+        padding: 20px;
+        border-top: none;
+    }
+    @media #{$brk-wide}{
+        width: 90%;
+    }
+    @extend %topborder;
+    @extend %content;
+    @extend %clearfix;
+}
+
+.landoflincoln {
+    color: $white;
+    background-color: $river-bed;
+    padding: 18% 24%;
+    border-right: 10px solid $yellow-orange;
+    border-bottom: 10px solid $yellow-orange;
+    margin: 105px 0 60px;
+    box-shadow: 5px 5px 10px 10px rgba($black,.2);
+    border-radius: 10px;
+ }

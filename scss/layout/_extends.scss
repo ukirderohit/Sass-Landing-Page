@@ -1,0 +1,30 @@
+
+// center align
+%centered {
+    text-align: center;
+}
+// top border
+%topborder {
+    border-top: 2px solid $color-border-light;
+}
+// primary and sec contents
+%content {
+    width: 75%;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 900px;
+}
+// columns
+
+%columns {
+       width: 45%;
+}
+
+// clearfix
+%clearfix {
+    &:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+}

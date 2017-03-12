@@ -1,0 +1,50 @@
+
+
+
+/* Type Selector*/
+body{
+    @include text(1em,1.5,normal,$grey);
+    margin: 0;
+    font-family: $stack-helvetica;
+    /*font-weight font-size/line-height font-family*/
+}
+
+
+/* Links */
+a{
+    &:link {
+        color: $color-link-default;
+        text-decoration: none;
+    }
+    &:visited {
+        color: $color-link-visited;
+    }
+    &:hover {
+        color: $forest-green;
+    }
+}
+
+
+.img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* ol and ul list styling*/
+ul li{
+    color: $yellow-orange;
+    margin-bottom: 10px;
+}
+
+
+
+ol{
+    list-style-type: decimal-leading-zero;
+    
+}
+
+ol,ul {
+    margin: 30px ;
+    padding-left: 0;
+    list-style-position: inside;
+}

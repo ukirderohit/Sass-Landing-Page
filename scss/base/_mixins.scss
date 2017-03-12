@@ -1,0 +1,15 @@
+@mixin font-face($family, $file){
+    @font-face{
+    font-family: $family;
+    src: url('#{$path-font}/#{$file}.ttf');
+}
+}
+
+
+@mixin text($size,$lineheight:null, $weight:null, $color:null){
+    font-size: $size;
+    line-height: $lineheight;
+    font-weight: $weight;
+    color: $color;
+
+}

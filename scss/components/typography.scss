@@ -1,0 +1,60 @@
+@include font-face('HomemadeApple',HomemadeApple);
+
+h1{
+    /*font-size: 5.625em;  90px/16px=5.625*/
+    color: $white;
+    font: normal 5.625em/1.3 $stack-helvetica;
+    line-height: 1.3;
+    text-shadow: 5px 8px 10px $black;
+    margin: 12px 0 0;
+    @media #{$brk-narrow} {
+        font-size: 3rem;
+        line-height: 1.1;
+    }
+}
+
+h2{
+   
+    @include text(3.3125em,1.1,normal);
+    font-family: $stack-homemade;
+    @media #{$brk-narrow} {
+        font-size: 1.8rem;
+        line-height: 1.1;
+    }
+}
+
+
+h3{
+    
+    @include text(1.25em,1.2,normal,$river-bed);
+    margin-bottom: 1.7em;
+}
+
+
+
+.title{
+    
+    @include text(1.625em,0.125em,normal,$white);
+    letter-spacing: 0.125em;
+    border-bottom : 2px solid;
+    padding-bottom :10px;
+    @media #{$brk-narrow}{
+        font-size: 1.3rem;
+        border: none;
+    }
+}
+
+
+.lakespi{
+    @media #{$brk-narrow}{
+        font-size: 1rem;
+    }
+}
+
+
+.landoflincoln{
+        @media #{$brk-wide} {
+        padding: 10% 12%;
+        margin: 50px 0 20px;
+    }
+}

@@ -1,0 +1,22 @@
+/*Floated Divs tips and resorts*/
+
+
+.resorts{
+    
+    @media #{$brk-narrow} {
+        float: none;
+        width: 100%;
+    }
+    @extend %columns;
+    float: left;
+}
+.tips{
+    
+    @media #{$brk-narrow} {
+        float: none;
+        width: 100%;
+    }
+    @extend %columns;
+    float: right;
+}
+

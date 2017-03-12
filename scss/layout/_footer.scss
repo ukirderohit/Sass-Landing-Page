@@ -1,0 +1,10 @@
+
+/*footer*/
+#main-footer {
+    @extend %centered;
+    padding: 60px 0;
+    border-bottom: 10px solid $yellow-orange;
+    @media #{$brk-narrow} {
+        padding: 20px 0;
+    }
+}
