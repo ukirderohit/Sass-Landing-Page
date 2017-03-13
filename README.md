@@ -1,13 +1,14 @@
-# CSS-Landing-Page
-A CSS-Landing-Page (No Framework Used)
+﻿# Sass-Landing-Page
 
-###[See the - Demo](http://ukirderohit.me/CSS-Landing-Page/)
+Refactored the last CSS landing page to Sass
+A Sass-Landing-Page (No Framework Used)
 
-![Responsive Layout](http://ukirderohit.me/CSS-Landing-Page/screenshot/mobile.jpg)
-![Desktop Layout](http://ukirderohit.me/CSS-Landing-Page/screenshot/pc.jpg)
+###[See the - Demo](http://ukirderohit.me/Sass-Landing-Page/)
 
 
 ###Features:
+
+<br>:white_check_mark:– Refactoring the old [CSS Landing Page](http://ukirderohit.me/CSS-Landing-Page/) Stylesheet with Sass
 <br>:white_check_mark:– Main image with CSS gradient overlay, full screen stretch
 <br>:white_check_mark:– Responsive to tablet<br>
 :white_check_mark:– Arrow scrolls you down the page so that the white nav bar is at top of the screen
