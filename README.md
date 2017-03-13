@@ -12,7 +12,7 @@ A Sass-Landing-Page (No Framework Used)
 <br>:white_check_mark:– Main image with CSS gradient overlay, full screen stretch
 <br>:white_check_mark:– Responsive to tablet<br>
 :white_check_mark:– Arrow scrolls you down the page so that the white nav bar is at top of the screen
-:x:– Responsive to mobile<br>
+<br>:white_check_mark:– Responsive to mobile<br>
 
 
 ### Fork, then clone
