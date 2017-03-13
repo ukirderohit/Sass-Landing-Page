@@ -20,8 +20,8 @@ A Sass-Landing-Page (No Framework Used)
 Fork the repo, and then clone it so you've got the code locally.
 
 ```
-$ Fork or clone repo `git clone git@github.com:ukirderohit/CSS-Landing-Page.git`
-$ cd CSS-Landing-Page
+$ Fork or clone repo `git clone git@github.com:ukirderohit/Sass-Landing-Page.git`
+$ cd Sass-Landing-Page
 $ index.html
 ```
 
