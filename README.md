@@ -3,10 +3,10 @@
 Refactored the last CSS landing page to Sass
 A Sass-Landing-Page (No Framework Used)
 
-###[See the - Demo](http://ukirderohit.me/Sass-Landing-Page/)
+### [See the - Demo](https://ukirderohit.com/Sass-Landing-Page/)
 
 
-###Features:
+### Features:
 
 <br>:white_check_mark:– Refactoring the old [CSS Landing Page](http://ukirderohit.me/CSS-Landing-Page/) Stylesheet with Sass
 <br>:white_check_mark:– Main image with CSS gradient overlay, full screen stretch
