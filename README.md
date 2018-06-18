@@ -8,7 +8,7 @@ A Sass-Landing-Page (No Framework Used)
 
 ### Features:
 
-<br>:white_check_mark:– Refactoring the old [CSS Landing Page](http://ukirderohit.me/CSS-Landing-Page/) Stylesheet with Sass
+<br>:white_check_mark:– Refactoring the old [CSS Landing Page](https://ukirderohit.com/CSS-Landing-Page/) Stylesheet with Sass
 <br>:white_check_mark:– Main image with CSS gradient overlay, full screen stretch
 <br>:white_check_mark:– Responsive to tablet<br>
 :white_check_mark:– Arrow scrolls you down the page so that the white nav bar is at top of the screen
